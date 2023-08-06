@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex; /* This creates a flex container */
+    flex-direction: row; /* Main axis is horizontal (left to right) */
+    justify-content: space-between; /* Align flex items with space between them */
+    align-items: center; /* Align flex items vertically in the cross axis */
+    height: 200px; /* Set a height to visualize the cross axis */
+  }
+  
+  .flex-item {
+    background-color: lightblue;
+    padding: 10px;
+  }
